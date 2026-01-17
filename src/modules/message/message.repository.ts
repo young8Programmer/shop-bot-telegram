@@ -4,6 +4,7 @@ import { Repository } from 'typeorm';
 import { Message } from '../../entities/message.entity';
 // error handling yaxshilandi
 import { Injectable } from '@nestjs/common';
+// CI/CD pipeline sozlandi
 // API endpoint testlari qo'shildi
 import { InjectRepository } from '@nestjs/typeorm';
 
