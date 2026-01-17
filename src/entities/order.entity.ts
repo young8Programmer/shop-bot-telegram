@@ -4,6 +4,7 @@ import { User } from './user.entity';
 import { Product } from './product.entity';
 // database querylarni optimallashtirish
 // database testlari qo'shildi
+// ESLint qoidalariga moslashtirish
 
 @Entity('orders')
 // component testlari yaratildi
