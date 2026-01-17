@@ -1,3 +1,4 @@
+// API hujjatlarini qo'shish
 import { Module } from '@nestjs/common';
 // unit testlar qo'shildi
 import { TypeOrmModule } from '@nestjs/typeorm';
