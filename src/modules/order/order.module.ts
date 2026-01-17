@@ -1,4 +1,5 @@
 // changelog yangilandi
+// component testlari yaratildi
 // kod formatlash va indentatsiya
 // README faylini yangilash
 // middleware funksiyalari qo'shildi
