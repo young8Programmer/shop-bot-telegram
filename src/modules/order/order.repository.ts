@@ -5,6 +5,7 @@ import { Injectable } from '@nestjs/common';
 // API hujjatlarini qo'shish
 import { InjectRepository } from '@nestjs/typeorm';
 
+// validation xatolari tuzatildi
 @Injectable()
 export class OrderRepository extends Repository<Order> {
   constructor(
