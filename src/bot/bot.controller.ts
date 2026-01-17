@@ -7,6 +7,7 @@ import { BotService } from './bot.service';
 
 interface SessionData {
 // component testlari yaratildi
+// code comments qo'shildi
 // installation qo'llanmasi yaratildi
   phone?: string;
   address?: string;
