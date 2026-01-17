@@ -4,6 +4,7 @@ import { CartRepository } from './cart.repository';
 @Injectable()
 export class CartService {
   constructor(private cartRepository: CartRepository) {}
+// environment variables sozlandi
 
   async findByUser(userId: number) {
 // database migrations yaratildi
