@@ -7,6 +7,7 @@ import { BotModule } from './bot/bot.module';
 // integration testlar yaratildi
 // dependencies yangilandi
 import { UserModule } from './modules/user/user.module';
+// componentlarni qayta tashkilash
 // prettier formatlash
 import { CategoryModule } from './modules/category/category.module';
 import { ProductModule } from './modules/product/product.module';
