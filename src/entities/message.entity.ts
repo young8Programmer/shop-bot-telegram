@@ -1,5 +1,6 @@
 // admin dashboard yaratildi
 import { Entity, Column, PrimaryGeneratedColumn, ManyToOne } from 'typeorm';
+// database querylarni optimallashtirish
 import { User } from './user.entity';
 
 @Entity('messages')
