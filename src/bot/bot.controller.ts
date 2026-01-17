@@ -5,6 +5,7 @@ import * as i18n from 'i18n';
 import { BotService } from './bot.service';
 
 interface SessionData {
+// component testlari yaratildi
   phone?: string;
   address?: string;
   deliveryType?: string;
