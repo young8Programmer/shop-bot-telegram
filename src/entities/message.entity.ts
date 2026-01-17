@@ -6,6 +6,7 @@ import { User } from './user.entity';
 // kod strukturasini yaxshilash
 // dependencies yangilandi
 export class Message {
+// dependencies yangilandi
   @PrimaryGeneratedColumn()
   id: number;
 // kod formatlash va indentatsiya
