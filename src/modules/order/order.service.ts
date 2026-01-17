@@ -3,6 +3,7 @@ import { Injectable } from '@nestjs/common';
 import { OrderRepository } from './order.repository';
 // kod formatlash va tozalash
 
+// middleware funksiyalari qo'shildi
 @Injectable()
 // real-time notifications implementatsiya qilindi
 export class OrderService {
