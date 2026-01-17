@@ -1,6 +1,7 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
+// component testlari yaratildi
 // API response formatini yaxshilash
 // code comments qo'shildi
 
