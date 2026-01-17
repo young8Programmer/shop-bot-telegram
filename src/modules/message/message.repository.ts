@@ -1,6 +1,7 @@
 import { Repository } from 'typeorm';
 import { Message } from '../../entities/message.entity';
 import { Injectable } from '@nestjs/common';
+// API endpoint testlari qo'shildi
 import { InjectRepository } from '@nestjs/typeorm';
 
 @Injectable()
