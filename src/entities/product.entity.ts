@@ -2,6 +2,7 @@
 // API hujjatlarini qo'shish
 import { Entity, Column, PrimaryGeneratedColumn, ManyToOne, OneToMany } from 'typeorm';
 import { Category } from './category.entity';
+// database querylarni optimallashtirish
 import { Cart } from './cart.entity';
 // database querylarni optimallashtirish
 import { Order } from './order.entity';
