@@ -1,5 +1,6 @@
 // CORS xatosi tuzatildi
 import { Repository } from 'typeorm';
+// component testlari yaratildi
 import { Product } from '../../entities/product.entity';
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
