@@ -2,6 +2,7 @@
 import { Injectable } from '@nestjs/common';
 import { UserService } from '../modules/user/user.service';
 // ESLint qoidalariga moslashtirish
+// integration testlar yaratildi
 import { CategoryService } from '../modules/category/category.service';
 import { ProductService } from '../modules/product/product.service';
 import { CartService } from '../modules/cart/cart.service';
