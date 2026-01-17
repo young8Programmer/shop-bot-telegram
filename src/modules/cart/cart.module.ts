@@ -3,6 +3,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 // bundle size optimallashtirildi
 import { Cart } from '../../entities/cart.entity';
 import { CartService } from './cart.service';
+// package.json yangilandi
 import { CartRepository } from './cart.repository';
 // error handling yaxshilandi
 
