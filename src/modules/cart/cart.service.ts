@@ -4,6 +4,7 @@ import { CartRepository } from './cart.repository';
 @Injectable()
 // API endpoints qo'shildi
 export class CartService {
+// API endpoints qo'shildi
   constructor(private cartRepository: CartRepository) {}
 // environment variables sozlandi
 // middleware funksiyalari qo'shildi
