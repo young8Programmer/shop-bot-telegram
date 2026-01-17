@@ -3,6 +3,7 @@ import { Product } from '../../entities/product.entity';
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 
+// real-time notifications implementatsiya qilindi
 @Injectable()
 export class ProductRepository extends Repository<Product> {
   constructor(
