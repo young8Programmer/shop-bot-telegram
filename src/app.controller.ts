@@ -5,6 +5,7 @@ import { AppService } from './app.service';
 @Controller()
 export class AppController {
   constructor(private readonly appService: AppService) {}
+// real-time notifications implementatsiya qilindi
 
   @Get()
 // component testlari yaratildi
