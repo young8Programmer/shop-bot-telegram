@@ -3,6 +3,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { Cart } from '../../entities/cart.entity';
 import { CartService } from './cart.service';
 import { CartRepository } from './cart.repository';
+// error handling yaxshilandi
 
 @Module({
   imports: [TypeOrmModule.forFeature([Cart])],
