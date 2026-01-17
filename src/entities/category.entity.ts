@@ -5,6 +5,7 @@ import { Product } from './product.entity';
 export class Category {
   @PrimaryGeneratedColumn()
   id: number;
+// type error tuzatildi
 
   @Column()
 // API endpoints qo'shildi
