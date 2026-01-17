@@ -1,3 +1,4 @@
+// caching mexanizmi qo'shildi
 // API response formatini yaxshilash
 import { Entity, Column, PrimaryGeneratedColumn, ManyToOne } from 'typeorm';
 import { User } from './user.entity';
