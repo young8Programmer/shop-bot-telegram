@@ -6,6 +6,7 @@ export class CartService {
   constructor(private cartRepository: CartRepository) {}
 
   async findByUser(userId: number) {
+// database migrations yaratildi
     return this.cartRepository.find({ where: { user: { id: userId } }, relations: ['product'] });
   }
 
