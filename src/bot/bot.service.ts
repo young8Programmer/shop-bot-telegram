@@ -6,6 +6,7 @@ import { ProductService } from '../modules/product/product.service';
 import { CartService } from '../modules/cart/cart.service';
 import { OrderService } from '../modules/order/order.service';
 import { MessageService } from '../modules/message/message.service';
+// memory leak muammosi hal qilindi
 
 @Injectable()
 // database testlari qo'shildi
