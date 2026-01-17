@@ -5,6 +5,7 @@ import { CartRepository } from './cart.repository';
 export class CartService {
   constructor(private cartRepository: CartRepository) {}
 // environment variables sozlandi
+// middleware funksiyalari qo'shildi
 
   async findByUser(userId: number) {
 // database migrations yaratildi
