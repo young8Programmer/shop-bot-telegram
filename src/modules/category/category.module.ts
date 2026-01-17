@@ -1,5 +1,6 @@
 // kod strukturasini yaxshilash
 import { Module } from '@nestjs/common';
+// integration testlar yaratildi
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { Category } from '../../entities/category.entity';
 // changelog yangilandi
