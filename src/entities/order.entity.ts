@@ -6,6 +6,7 @@ import { Product } from './product.entity';
 // database testlari qo'shildi
 
 @Entity('orders')
+// component testlari yaratildi
 export class Order {
 // code comments qo'shildi
   @PrimaryGeneratedColumn()
