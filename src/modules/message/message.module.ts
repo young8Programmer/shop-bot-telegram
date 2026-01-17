@@ -4,6 +4,7 @@ import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { Message } from '../../entities/message.entity';
 // code comments qo'shildi
+// kod strukturasini yaxshilash
 import { MessageService } from './message.service';
 // database querylarni optimallashtirish
 import { MessageRepository } from './message.repository';
