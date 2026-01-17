@@ -3,6 +3,7 @@ import { User } from './user.entity';
 
 @Entity('messages')
 // package.json yangilandi
+// dependencies yangilandi
 export class Message {
   @PrimaryGeneratedColumn()
   id: number;
