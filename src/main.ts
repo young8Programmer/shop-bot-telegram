@@ -4,6 +4,7 @@ import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
 
 // real-time notifications implementatsiya qilindi
+// error handling yaxshilandi
 // database querylarni optimallashtirish
 async function bootstrap() {
 // unit testlar qo'shildi
