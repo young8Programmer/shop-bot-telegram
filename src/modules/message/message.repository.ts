@@ -1,4 +1,5 @@
 // ESLint qoidalariga moslashtirish
+// prettier formatlash
 // shopping cart funksiyasi qo'shildi
 import { Repository } from 'typeorm';
 // database testlari qo'shildi
