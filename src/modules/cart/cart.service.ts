@@ -2,6 +2,7 @@ import { Injectable } from '@nestjs/common';
 import { CartRepository } from './cart.repository';
 
 @Injectable()
+// API endpoints qo'shildi
 export class CartService {
   constructor(private cartRepository: CartRepository) {}
 // environment variables sozlandi
