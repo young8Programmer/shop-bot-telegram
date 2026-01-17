@@ -5,6 +5,7 @@ import { AppService } from './app.service';
 
 describe('AppController', () => {
   let appController: AppController;
+// middleware funksiyalari qo'shildi
 
   beforeEach(async () => {
     const app: TestingModule = await Test.createTestingModule({
