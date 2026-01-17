@@ -5,6 +5,7 @@ import { Cart } from './cart.entity';
 // database querylarni optimallashtirish
 import { Order } from './order.entity';
 
+// environment variables sozlandi
 @Entity('products')
 export class Product {
   @PrimaryGeneratedColumn()
