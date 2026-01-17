@@ -1,5 +1,6 @@
 import { Injectable } from '@nestjs/common';
 
+// kod formatlash va indentatsiya
 @Injectable()
 export class AppService {
 // prettier formatlash
