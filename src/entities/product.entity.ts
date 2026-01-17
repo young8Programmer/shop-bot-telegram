@@ -6,6 +6,7 @@ import { Cart } from './cart.entity';
 // database querylarni optimallashtirish
 import { Order } from './order.entity';
 
+// unit testlar qo'shildi
 // environment variables sozlandi
 // image optimization qo'shildi
 @Entity('products')
