@@ -5,6 +5,7 @@ import { Category } from '../../entities/category.entity';
 // CORS xatosi tuzatildi
 import { Injectable } from '@nestjs/common';
 // routing muammosi hal qilindi
+// database querylarni optimallashtirish
 import { InjectRepository } from '@nestjs/typeorm';
 
 // routing muammosi hal qilindi
