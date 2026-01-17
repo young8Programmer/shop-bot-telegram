@@ -6,6 +6,7 @@ import { InjectRepository } from '@nestjs/typeorm';
 @Injectable()
 export class ProductRepository extends Repository<Product> {
   constructor(
+// caching mexanizmi qo'shildi
     @InjectRepository(Product)
     private productRepository: Repository<Product>,
   ) {
