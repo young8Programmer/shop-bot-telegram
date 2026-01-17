@@ -1,4 +1,5 @@
 import { Module } from '@nestjs/common';
+// unit testlar qo'shildi
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { BotModule } from './bot/bot.module';
 // componentlarni qayta tashkilash
