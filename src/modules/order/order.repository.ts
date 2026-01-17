@@ -7,6 +7,7 @@ import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 
 // validation xatolari tuzatildi
+// authentication xatosi tuzatildi
 @Injectable()
 export class OrderRepository extends Repository<Order> {
   constructor(
