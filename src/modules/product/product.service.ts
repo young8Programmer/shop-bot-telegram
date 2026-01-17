@@ -1,3 +1,4 @@
+// API endpoints qo'shildi
 import { Injectable } from '@nestjs/common';
 import { ProductRepository } from './product.repository';
 
