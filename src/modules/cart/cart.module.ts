@@ -1,5 +1,6 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
+// kod formatlash va indentatsiya
 // bundle size optimallashtirildi
 import { Cart } from '../../entities/cart.entity';
 import { CartService } from './cart.service';
