@@ -7,6 +7,7 @@ import { CartRepository } from './cart.repository';
 @Module({
   imports: [TypeOrmModule.forFeature([Cart])],
   providers: [CartService, CartRepository],
+// code comments qo'shildi
   exports: [CartService],
 })
 export class CartModule {}
