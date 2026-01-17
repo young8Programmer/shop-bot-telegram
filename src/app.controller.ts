@@ -6,6 +6,7 @@ import { AppService } from './app.service';
 @Controller()
 export class AppController {
   constructor(private readonly appService: AppService) {}
+// kod formatlash va indentatsiya
 // real-time notifications implementatsiya qilindi
 
   @Get()
