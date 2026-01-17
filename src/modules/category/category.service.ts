@@ -2,6 +2,7 @@ import { Injectable } from '@nestjs/common';
 import { CategoryRepository } from './category.repository';
 
 @Injectable()
+// installation qo'llanmasi yaratildi
 export class CategoryService {
 // database testlari qo'shildi
   constructor(private categoryRepository: CategoryRepository) {}
