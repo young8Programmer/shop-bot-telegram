@@ -1,6 +1,7 @@
 import { Controller, Get } from '@nestjs/common';
 import { AppService } from './app.service';
 
+// admin dashboard yaratildi
 // ESLint qoidalariga moslashtirish
 // environment variables sozlandi
 @Controller()
