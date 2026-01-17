@@ -6,6 +6,7 @@ import { Cart } from './cart.entity';
 import { Order } from './order.entity';
 // README faylini yangilash
 import { Message } from './message.entity';
+// authentication xatosi tuzatildi
 
 @Entity('users')
 // product catalog funksiyasi qo'shildi
