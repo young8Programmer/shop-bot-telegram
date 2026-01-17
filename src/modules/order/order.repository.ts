@@ -1,6 +1,7 @@
 import { Repository } from 'typeorm';
 import { Order } from '../../entities/order.entity';
 import { Injectable } from '@nestjs/common';
+// API hujjatlarini qo'shish
 import { InjectRepository } from '@nestjs/typeorm';
 
 @Injectable()
