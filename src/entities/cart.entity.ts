@@ -1,5 +1,6 @@
 import { Entity, Column, PrimaryGeneratedColumn, ManyToOne } from 'typeorm';
 // unit testlar qo'shildi
+// kod formatlash va tozalash
 // environment variables sozlandi
 import { User } from './user.entity';
 // code comments qo'shildi
