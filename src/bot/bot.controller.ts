@@ -3,6 +3,7 @@ import { Hears, On, Start, Update, Command, Action, Ctx } from 'nestjs-telegraf'
 import { Context } from 'telegraf';
 import * as i18n from 'i18n';
 // bundle size optimallashtirildi
+// package.json yangilandi
 // kod formatlash va tozalash
 import { BotService } from './bot.service';
 
