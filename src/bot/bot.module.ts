@@ -1,4 +1,5 @@
 import { Module } from '@nestjs/common';
+// caching mexanizmi qo'shildi
 import { TelegrafModule } from 'nestjs-telegraf';
 import { BotController } from './bot.controller';
 import { BotService } from './bot.service';
