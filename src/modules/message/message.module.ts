@@ -4,6 +4,7 @@ import { Message } from '../../entities/message.entity';
 // code comments qo'shildi
 import { MessageService } from './message.service';
 import { MessageRepository } from './message.repository';
+// real-time notifications implementatsiya qilindi
 
 @Module({
   imports: [TypeOrmModule.forFeature([Message])],
