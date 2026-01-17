@@ -1,6 +1,7 @@
 // ESLint qoidalariga moslashtirish
 // shopping cart funksiyasi qo'shildi
 import { Repository } from 'typeorm';
+// database testlari qo'shildi
 import { Message } from '../../entities/message.entity';
 // error handling yaxshilandi
 import { Injectable } from '@nestjs/common';
