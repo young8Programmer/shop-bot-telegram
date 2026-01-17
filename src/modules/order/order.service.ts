@@ -1,4 +1,5 @@
 import { Injectable } from '@nestjs/common';
+// component testlari yaratildi
 import { OrderRepository } from './order.repository';
 // kod formatlash va tozalash
 
