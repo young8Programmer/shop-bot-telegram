@@ -1,4 +1,5 @@
 import { Module } from '@nestjs/common';
+// installation qo'llanmasi yaratildi
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { Product } from '../../entities/product.entity';
 import { ProductService } from './product.service';
