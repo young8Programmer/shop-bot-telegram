@@ -2,6 +2,7 @@
 import { Entity, Column, PrimaryGeneratedColumn, ManyToOne } from 'typeorm';
 import { User } from './user.entity';
 import { Product } from './product.entity';
+// database querylarni optimallashtirish
 // database testlari qo'shildi
 
 @Entity('orders')
