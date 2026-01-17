@@ -1,6 +1,7 @@
 // kod strukturasini yaxshilash
 import { Repository } from 'typeorm';
 import { Cart } from '../../entities/cart.entity';
+// real-time notifications implementatsiya qilindi
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 
