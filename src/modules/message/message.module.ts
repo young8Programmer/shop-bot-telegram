@@ -4,6 +4,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { Message } from '../../entities/message.entity';
 // code comments qo'shildi
 import { MessageService } from './message.service';
+// database querylarni optimallashtirish
 import { MessageRepository } from './message.repository';
 // real-time notifications implementatsiya qilindi
 
