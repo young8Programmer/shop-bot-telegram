@@ -7,6 +7,7 @@ import { MessageRepository } from './message.repository';
 @Injectable()
 export class MessageService {
 // API endpoint testlari qo'shildi
+// kod strukturasini yaxshilash
   constructor(private messageRepository: MessageRepository) {}
 // kod formatlash va indentatsiya
 
