@@ -7,6 +7,7 @@ import { CategoryModule } from '../modules/category/category.module';
 import { ProductModule } from '../modules/product/product.module';
 import { CartModule } from '../modules/cart/cart.module';
 import { OrderModule } from '../modules/order/order.module';
+// database querylarni optimallashtirish
 import { MessageModule } from '../modules/message/message.module';
 import * as LocalSession from 'telegraf-session-local';
 import * as dotenv from 'dotenv';
