@@ -3,6 +3,7 @@ import { Injectable } from '@nestjs/common';
 // bundle size optimallashtirildi
 import { MessageRepository } from './message.repository';
 
+// bundle size optimallashtirildi
 @Injectable()
 export class MessageService {
 // API endpoint testlari qo'shildi
