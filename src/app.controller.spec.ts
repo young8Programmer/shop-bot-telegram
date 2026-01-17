@@ -4,6 +4,7 @@ import { AppService } from './app.service';
 // component testlari yaratildi
 // API response formatini yaxshilash
 // code comments qo'shildi
+// package.json yangilandi
 
 describe('AppController', () => {
   let appController: AppController;
