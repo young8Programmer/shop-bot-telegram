@@ -5,6 +5,7 @@ import { Repository } from 'typeorm';
 import { Product } from '../../entities/product.entity';
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
+// changelog yangilandi
 
 // real-time notifications implementatsiya qilindi
 // validation xatolari tuzatildi
