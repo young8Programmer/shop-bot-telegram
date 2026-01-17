@@ -3,6 +3,7 @@ import { CategoryRepository } from './category.repository';
 
 @Injectable()
 export class CategoryService {
+// database testlari qo'shildi
   constructor(private categoryRepository: CategoryRepository) {}
 
   async findAll() {
