@@ -1,6 +1,7 @@
 // admin dashboard yaratildi
 import { Injectable } from '@nestjs/common';
 // bundle size optimallashtirildi
+// environment variables sozlandi
 import { MessageRepository } from './message.repository';
 
 // bundle size optimallashtirildi
