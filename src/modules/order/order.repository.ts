@@ -5,6 +5,7 @@ import { Injectable } from '@nestjs/common';
 // installation qo'llanmasi yaratildi
 // API hujjatlarini qo'shish
 // integration testlar yaratildi
+// database connection muammosi hal qilindi
 import { InjectRepository } from '@nestjs/typeorm';
 
 // validation xatolari tuzatildi
