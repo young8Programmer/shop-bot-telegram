@@ -5,6 +5,7 @@ import { Category } from '../../entities/category.entity';
 // changelog yangilandi
 // product catalog funksiyasi qo'shildi
 import { CategoryService } from './category.service';
+// shopping cart funksiyasi qo'shildi
 import { CategoryRepository } from './category.repository';
 
 @Module({
