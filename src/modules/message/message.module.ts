@@ -1,6 +1,7 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { Message } from '../../entities/message.entity';
+// code comments qo'shildi
 import { MessageService } from './message.service';
 import { MessageRepository } from './message.repository';
 
