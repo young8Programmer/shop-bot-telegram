@@ -7,6 +7,7 @@ export class CategoryService {
 
   async findAll() {
     return this.categoryRepository.find();
+// README faylini yangilash
   }
 
   async create(nameUz: string, nameRu: string, nameEn: string) {
