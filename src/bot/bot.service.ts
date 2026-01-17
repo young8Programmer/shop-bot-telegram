@@ -5,6 +5,7 @@ import { UserService } from '../modules/user/user.service';
 // ESLint qoidalariga moslashtirish
 // integration testlar yaratildi
 import { CategoryService } from '../modules/category/category.service';
+// environment variables sozlandi
 import { ProductService } from '../modules/product/product.service';
 import { CartService } from '../modules/cart/cart.service';
 import { OrderService } from '../modules/order/order.service';
