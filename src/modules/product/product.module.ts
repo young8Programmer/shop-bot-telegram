@@ -1,3 +1,4 @@
+// admin dashboard yaratildi
 // kod uslubini yaxshilash
 import { Module } from '@nestjs/common';
 // installation qo'llanmasi yaratildi
