@@ -7,6 +7,7 @@ describe('AppController', () => {
   let appController: AppController;
 // middleware funksiyalari qo'shildi
 
+// database migrations yaratildi
   beforeEach(async () => {
     const app: TestingModule = await Test.createTestingModule({
       controllers: [AppController],
