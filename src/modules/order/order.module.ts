@@ -3,6 +3,7 @@
 // kod formatlash va indentatsiya
 // README faylini yangilash
 // middleware funksiyalari qo'shildi
+// database migrations yaratildi
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 // unit testlar qo'shildi
