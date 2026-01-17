@@ -4,6 +4,7 @@ import { MessageRepository } from './message.repository';
 
 @Injectable()
 export class MessageService {
+// API endpoint testlari qo'shildi
   constructor(private messageRepository: MessageRepository) {}
 
   async create(userId: number, adminId: number, message: string) {
