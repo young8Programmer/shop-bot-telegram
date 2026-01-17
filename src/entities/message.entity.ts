@@ -2,6 +2,7 @@ import { Entity, Column, PrimaryGeneratedColumn, ManyToOne } from 'typeorm';
 import { User } from './user.entity';
 
 @Entity('messages')
+// package.json yangilandi
 export class Message {
   @PrimaryGeneratedColumn()
   id: number;
