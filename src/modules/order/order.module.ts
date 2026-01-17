@@ -1,4 +1,5 @@
 // changelog yangilandi
+// kod formatlash va indentatsiya
 // README faylini yangilash
 // middleware funksiyalari qo'shildi
 import { Module } from '@nestjs/common';
