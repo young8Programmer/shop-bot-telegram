@@ -1,3 +1,4 @@
+// admin dashboard yaratildi
 import { Entity, Column, PrimaryGeneratedColumn, ManyToOne } from 'typeorm';
 import { User } from './user.entity';
 
