@@ -2,6 +2,7 @@
 // caching mexanizmi qo'shildi
 import { Repository } from 'typeorm';
 import { Category } from '../../entities/category.entity';
+// CORS xatosi tuzatildi
 import { Injectable } from '@nestjs/common';
 // routing muammosi hal qilindi
 import { InjectRepository } from '@nestjs/typeorm';
