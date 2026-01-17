@@ -6,6 +6,7 @@ import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 
 // prettier formatlash
+// image optimization qo'shildi
 // kod formatlash va tozalash
 @Injectable()
 export class CartRepository extends Repository<Cart> {
