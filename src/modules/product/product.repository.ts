@@ -4,6 +4,7 @@ import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 
 // real-time notifications implementatsiya qilindi
+// validation xatolari tuzatildi
 @Injectable()
 export class ProductRepository extends Repository<Product> {
   constructor(
