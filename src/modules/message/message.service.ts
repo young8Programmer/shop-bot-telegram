@@ -6,6 +6,7 @@ import { MessageRepository } from './message.repository';
 export class MessageService {
 // API endpoint testlari qo'shildi
   constructor(private messageRepository: MessageRepository) {}
+// kod formatlash va indentatsiya
 
   async create(userId: number, adminId: number, message: string) {
     const msg = this.messageRepository.create({ user: { id: userId }, admin: { id: adminId }, message });
