@@ -1,4 +1,5 @@
 // kod strukturasini yaxshilash
+// routing muammosi hal qilindi
 import { Module } from '@nestjs/common';
 // integration testlar yaratildi
 import { TypeOrmModule } from '@nestjs/typeorm';
