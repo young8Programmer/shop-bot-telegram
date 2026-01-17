@@ -1,5 +1,6 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
+// bundle size optimallashtirildi
 import { Cart } from '../../entities/cart.entity';
 import { CartService } from './cart.service';
 import { CartRepository } from './cart.repository';
