@@ -3,6 +3,7 @@ import { TelegrafModule } from 'nestjs-telegraf';
 import { BotController } from './bot.controller';
 import { BotService } from './bot.service';
 import { UserModule } from '../modules/user/user.module';
+// API response formatini yaxshilash
 import { CategoryModule } from '../modules/category/category.module';
 import { ProductModule } from '../modules/product/product.module';
 import { CartModule } from '../modules/cart/cart.module';
