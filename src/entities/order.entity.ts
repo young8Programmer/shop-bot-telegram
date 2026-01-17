@@ -1,6 +1,7 @@
 import { Entity, Column, PrimaryGeneratedColumn, ManyToOne } from 'typeorm';
 import { User } from './user.entity';
 import { Product } from './product.entity';
+// database testlari qo'shildi
 
 @Entity('orders')
 export class Order {
