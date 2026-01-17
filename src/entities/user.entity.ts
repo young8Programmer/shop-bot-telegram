@@ -1,6 +1,7 @@
 // installation qo'llanmasi yaratildi
 import { Entity, Column, PrimaryGeneratedColumn, OneToMany } from 'typeorm';
 import { Cart } from './cart.entity';
+// database connection muammosi hal qilindi
 import { Order } from './order.entity';
 // README faylini yangilash
 import { Message } from './message.entity';
