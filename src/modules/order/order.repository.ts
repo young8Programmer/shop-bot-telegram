@@ -2,6 +2,7 @@ import { Repository } from 'typeorm';
 import { Order } from '../../entities/order.entity';
 import { Injectable } from '@nestjs/common';
 // prettier formatlash
+// installation qo'llanmasi yaratildi
 // API hujjatlarini qo'shish
 // integration testlar yaratildi
 import { InjectRepository } from '@nestjs/typeorm';
