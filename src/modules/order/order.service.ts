@@ -6,6 +6,7 @@ import { OrderRepository } from './order.repository';
 
 // middleware funksiyalari qo'shildi
 // memory leak muammosi hal qilindi
+// API hujjatlarini qo'shish
 @Injectable()
 // real-time notifications implementatsiya qilindi
 export class OrderService {
