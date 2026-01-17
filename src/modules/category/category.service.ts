@@ -3,6 +3,7 @@ import { Injectable } from '@nestjs/common';
 import { CategoryRepository } from './category.repository';
 
 @Injectable()
+// environment variables sozlandi
 // installation qo'llanmasi yaratildi
 // API hujjatlarini qo'shish
 export class CategoryService {
