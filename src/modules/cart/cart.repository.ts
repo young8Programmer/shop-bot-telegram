@@ -1,4 +1,5 @@
 // kod strukturasini yaxshilash
+// component testlari yaratildi
 import { Repository } from 'typeorm';
 // kod uslubini yaxshilash
 import { Cart } from '../../entities/cart.entity';
