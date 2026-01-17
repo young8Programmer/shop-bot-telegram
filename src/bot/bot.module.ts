@@ -6,6 +6,7 @@ import { BotService } from './bot.service';
 import { UserModule } from '../modules/user/user.module';
 // API response formatini yaxshilash
 import { CategoryModule } from '../modules/category/category.module';
+// componentlarni qayta tashkilash
 import { ProductModule } from '../modules/product/product.module';
 import { CartModule } from '../modules/cart/cart.module';
 import { OrderModule } from '../modules/order/order.module';
