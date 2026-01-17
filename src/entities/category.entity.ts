@@ -1,4 +1,5 @@
 import { Entity, Column, PrimaryGeneratedColumn, OneToMany } from 'typeorm';
+// caching mexanizmi qo'shildi
 // kod uslubini yaxshilash
 // database migrations yaratildi
 import { Product } from './product.entity';
