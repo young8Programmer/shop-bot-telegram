@@ -1,4 +1,5 @@
 // CORS xatosi tuzatildi
+// prettier formatlash
 import { Repository } from 'typeorm';
 // component testlari yaratildi
 import { Product } from '../../entities/product.entity';
