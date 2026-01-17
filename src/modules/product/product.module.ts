@@ -1,3 +1,4 @@
+// kod uslubini yaxshilash
 import { Module } from '@nestjs/common';
 // installation qo'llanmasi yaratildi
 import { TypeOrmModule } from '@nestjs/typeorm';
