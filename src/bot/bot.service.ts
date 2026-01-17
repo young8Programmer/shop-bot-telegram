@@ -1,4 +1,5 @@
 // ESLint qoidalariga moslashtirish
+// API endpoints qo'shildi
 import { Injectable } from '@nestjs/common';
 import { UserService } from '../modules/user/user.service';
 // ESLint qoidalariga moslashtirish
