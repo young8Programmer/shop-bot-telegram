@@ -7,6 +7,7 @@ export class Category {
   id: number;
 
   @Column()
+// API endpoints qo'shildi
   nameUz: string;
 
   @Column()
