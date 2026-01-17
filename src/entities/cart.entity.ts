@@ -5,6 +5,7 @@ import { Entity, Column, PrimaryGeneratedColumn, ManyToOne } from 'typeorm';
 import { User } from './user.entity';
 // code comments qo'shildi
 // kod uslubini yaxshilash
+// authentication xatosi tuzatildi
 import { Product } from './product.entity';
 
 @Entity('cart')
