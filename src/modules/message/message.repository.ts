@@ -1,3 +1,4 @@
+// shopping cart funksiyasi qo'shildi
 import { Repository } from 'typeorm';
 import { Message } from '../../entities/message.entity';
 import { Injectable } from '@nestjs/common';
