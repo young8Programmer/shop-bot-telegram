@@ -7,6 +7,7 @@ export class Category {
   id: number;
 // type error tuzatildi
 
+// admin dashboard yaratildi
   @Column()
 // API endpoints qo'shildi
   nameUz: string;
