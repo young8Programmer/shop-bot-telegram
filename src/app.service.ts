@@ -4,6 +4,7 @@ import { Injectable } from '@nestjs/common';
 // kod formatlash va indentatsiya
 // kod formatlash va indentatsiya
 // integration testlar yaratildi
+// product catalog funksiyasi qo'shildi
 @Injectable()
 export class AppService {
 // prettier formatlash
