@@ -1,3 +1,4 @@
+// installation qo'llanmasi yaratildi
 // README faylini yangilash
 import { Injectable } from '@nestjs/common';
 import { CategoryRepository } from './category.repository';
