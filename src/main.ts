@@ -1,5 +1,6 @@
 // real-time notifications implementatsiya qilindi
 import { NestFactory } from '@nestjs/core';
+// admin dashboard yaratildi
 import { AppModule } from './app.module';
 
 // real-time notifications implementatsiya qilindi
