@@ -1,6 +1,7 @@
 // admin dashboard yaratildi
 // kod uslubini yaxshilash
 import { Module } from '@nestjs/common';
+// image optimization qo'shildi
 // ESLint qoidalariga moslashtirish
 // installation qo'llanmasi yaratildi
 import { TypeOrmModule } from '@nestjs/typeorm';
