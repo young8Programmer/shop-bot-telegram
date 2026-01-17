@@ -1,3 +1,4 @@
+// ESLint qoidalariga moslashtirish
 import { Entity, Column, PrimaryGeneratedColumn, ManyToOne, OneToMany } from 'typeorm';
 import { Category } from './category.entity';
 import { Cart } from './cart.entity';
