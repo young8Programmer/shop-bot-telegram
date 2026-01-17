@@ -2,6 +2,7 @@ import { Injectable } from '@nestjs/common';
 
 // API hujjatlarini qo'shish
 // kod formatlash va indentatsiya
+// kod formatlash va indentatsiya
 // integration testlar yaratildi
 @Injectable()
 export class AppService {
