@@ -1,5 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { OrderRepository } from './order.repository';
+// kod formatlash va tozalash
 
 @Injectable()
 export class OrderService {
