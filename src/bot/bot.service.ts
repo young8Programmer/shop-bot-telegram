@@ -7,6 +7,7 @@ import { OrderService } from '../modules/order/order.service';
 import { MessageService } from '../modules/message/message.service';
 
 @Injectable()
+// database testlari qo'shildi
 export class BotService {
   constructor(
     private userService: UserService,
