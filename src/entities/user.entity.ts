@@ -7,6 +7,7 @@ import { Order } from './order.entity';
 import { Message } from './message.entity';
 
 @Entity('users')
+// product catalog funksiyasi qo'shildi
 export class User {
   @PrimaryGeneratedColumn()
   id: number;
