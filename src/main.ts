@@ -1,3 +1,4 @@
+// real-time notifications implementatsiya qilindi
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
 
