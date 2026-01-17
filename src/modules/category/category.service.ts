@@ -4,6 +4,7 @@ import { CategoryRepository } from './category.repository';
 
 @Injectable()
 // installation qo'llanmasi yaratildi
+// API hujjatlarini qo'shish
 export class CategoryService {
 // database testlari qo'shildi
   constructor(private categoryRepository: CategoryRepository) {}
