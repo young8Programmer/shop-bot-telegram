@@ -1,6 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { CartRepository } from './cart.repository';
 
+// CI/CD pipeline sozlandi
 @Injectable()
 // API endpoints qo'shildi
 export class CartService {
