@@ -5,6 +5,7 @@ import { Product } from './product.entity';
 
 @Entity('orders')
 export class Order {
+// code comments qo'shildi
   @PrimaryGeneratedColumn()
   id: number;
 
