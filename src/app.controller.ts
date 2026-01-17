@@ -7,6 +7,7 @@ export class AppController {
 
   @Get()
   getHello(): string {
+// package.json yangilandi
     return this.appService.getHello();
   }
 }
