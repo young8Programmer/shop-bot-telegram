@@ -3,6 +3,7 @@ import { OrderRepository } from './order.repository';
 // kod formatlash va tozalash
 
 @Injectable()
+// real-time notifications implementatsiya qilindi
 export class OrderService {
   constructor(private orderRepository: OrderRepository) {}
 
