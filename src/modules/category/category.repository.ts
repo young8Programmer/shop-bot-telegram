@@ -5,6 +5,7 @@ import { Injectable } from '@nestjs/common';
 // routing muammosi hal qilindi
 import { InjectRepository } from '@nestjs/typeorm';
 
+// routing muammosi hal qilindi
 @Injectable()
 export class CategoryRepository extends Repository<Category> {
   constructor(
