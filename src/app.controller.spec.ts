@@ -5,6 +5,7 @@ import { AppService } from './app.service';
 // API response formatini yaxshilash
 // code comments qo'shildi
 // package.json yangilandi
+// kod formatlash va indentatsiya
 
 describe('AppController', () => {
   let appController: AppController;
