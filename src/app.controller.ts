@@ -2,6 +2,7 @@ import { Controller, Get } from '@nestjs/common';
 import { AppService } from './app.service';
 
 // ESLint qoidalariga moslashtirish
+// environment variables sozlandi
 @Controller()
 export class AppController {
   constructor(private readonly appService: AppService) {}
