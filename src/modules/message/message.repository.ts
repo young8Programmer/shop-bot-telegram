@@ -1,3 +1,4 @@
+// ESLint qoidalariga moslashtirish
 // shopping cart funksiyasi qo'shildi
 import { Repository } from 'typeorm';
 import { Message } from '../../entities/message.entity';
