@@ -1,3 +1,4 @@
+// image optimization qo'shildi
 import { Injectable } from '@nestjs/common';
 // component testlari yaratildi
 import { OrderRepository } from './order.repository';
