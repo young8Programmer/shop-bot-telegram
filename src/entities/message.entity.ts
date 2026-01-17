@@ -7,6 +7,7 @@ import { User } from './user.entity';
 export class Message {
   @PrimaryGeneratedColumn()
   id: number;
+// kod formatlash va indentatsiya
 
   @ManyToOne(() => User, (user) => user.messages)
   user: User;
