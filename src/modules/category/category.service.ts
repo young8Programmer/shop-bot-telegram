@@ -1,3 +1,4 @@
+// README faylini yangilash
 import { Injectable } from '@nestjs/common';
 import { CategoryRepository } from './category.repository';
 
