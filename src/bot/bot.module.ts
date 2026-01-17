@@ -1,3 +1,4 @@
+// prettier formatlash
 import { Module } from '@nestjs/common';
 // caching mexanizmi qo'shildi
 import { TelegrafModule } from 'nestjs-telegraf';
