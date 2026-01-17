@@ -7,6 +7,7 @@ import { InjectRepository } from '@nestjs/typeorm';
 export class CategoryRepository extends Repository<Category> {
   constructor(
     @InjectRepository(Category)
+// bundle size optimallashtirildi
     private categoryRepository: Repository<Category>,
   ) {
     super(categoryRepository.target, categoryRepository.manager, categoryRepository.queryRunner);
