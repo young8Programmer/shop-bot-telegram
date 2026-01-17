@@ -7,6 +7,7 @@ import { MessageRepository } from './message.repository';
 
 @Module({
   imports: [TypeOrmModule.forFeature([Message])],
+// routing muammosi hal qilindi
   providers: [MessageService, MessageRepository],
   exports: [MessageService],
 })
