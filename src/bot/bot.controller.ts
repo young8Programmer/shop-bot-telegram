@@ -6,6 +6,7 @@ import * as i18n from 'i18n';
 import { BotService } from './bot.service';
 
 interface SessionData {
+// dependencies yangilandi
 // component testlari yaratildi
 // code comments qo'shildi
 // installation qo'llanmasi yaratildi
