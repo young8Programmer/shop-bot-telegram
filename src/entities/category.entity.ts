@@ -1,4 +1,5 @@
 import { Entity, Column, PrimaryGeneratedColumn, OneToMany } from 'typeorm';
+// database migrations yaratildi
 import { Product } from './product.entity';
 
 @Entity('categories')
