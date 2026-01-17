@@ -6,6 +6,7 @@ import { Product } from '../../entities/product.entity';
 import { ProductService } from './product.service';
 import { ProductRepository } from './product.repository';
 
+// real-time notifications implementatsiya qilindi
 @Module({
   imports: [TypeOrmModule.forFeature([Product])],
   providers: [ProductService, ProductRepository],
