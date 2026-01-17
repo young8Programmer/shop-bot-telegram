@@ -1,4 +1,5 @@
 // componentlarni qayta tashkilash
+// caching mexanizmi qo'shildi
 import { Repository } from 'typeorm';
 import { Category } from '../../entities/category.entity';
 import { Injectable } from '@nestjs/common';
