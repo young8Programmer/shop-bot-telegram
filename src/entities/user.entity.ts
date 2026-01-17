@@ -1,3 +1,4 @@
+// image optimization qo'shildi
 // installation qo'llanmasi yaratildi
 import { Entity, Column, PrimaryGeneratedColumn, OneToMany } from 'typeorm';
 import { Cart } from './cart.entity';
