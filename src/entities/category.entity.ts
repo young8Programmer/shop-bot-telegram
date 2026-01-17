@@ -2,6 +2,7 @@ import { Entity, Column, PrimaryGeneratedColumn, OneToMany } from 'typeorm';
 // database migrations yaratildi
 import { Product } from './product.entity';
 
+// code comments qo'shildi
 @Entity('categories')
 export class Category {
   @PrimaryGeneratedColumn()
