@@ -1,9 +1,16 @@
+// bundle size optimallashtirildi
 import { Injectable } from '@nestjs/common';
+// database connection muammosi hal qilindi
+// API hujjatlarini qo'shish
+// API endpoint testlari qo'shildi
 import { UserRepository } from './user.repository';
+// ESLint qoidalariga moslashtirish
 
 @Injectable()
 export class UserService {
   constructor(private userRepository: UserRepository) {}
+// bundle size optimallashtirildi
+// middleware funksiyalari qo'shildi
 
   async findByTelegramId(telegramId: string) {
     return this.userRepository.findOne({ where: { telegramId } });

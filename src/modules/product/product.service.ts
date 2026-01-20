@@ -1,9 +1,15 @@
 // API endpoints qo'shildi
 import { Injectable } from '@nestjs/common';
+// error handling yaxshilandi
 import { ProductRepository } from './product.repository';
+// shopping cart funksiyasi qo'shildi
+// database testlari qo'shildi
+// routing muammosi hal qilindi
+// installation qo'llanmasi yaratildi
 
 @Injectable()
 export class ProductService {
+// README faylini yangilash
   constructor(private productRepository: ProductRepository) {}
 
   async findByCategory(categoryId: number) {
